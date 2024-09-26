@@ -1034,7 +1034,7 @@ section.testimonials:after {
   background-color: #fff;
   margin: 15px;
   transition: all .3s;
-  position: relative;
+
   z-index: 2;
 }
 
@@ -1051,7 +1051,7 @@ section.testimonials:after {
   margin-top: 30px;
   font-size: 20px;
   font-weight: 900;
-  position: relative;
+  position: bottom;
 }
 
 .testimonials .item span {
@@ -1061,11 +1061,15 @@ section.testimonials:after {
 }
 
 .testimonials .item img {
-  max-width: 44px;
+  align-items: center;
+  max-width: 100px;
+  width: 100px;
   z-index: 2;
-  position: absolute;
+  position: top;
   right: 30px;
-  bottom: 30px
+  bottom: 30px;
+  margin-bottom: 30px;
+  border-radius: 50%;
 }
 
 .testimonials .owl-dots {
